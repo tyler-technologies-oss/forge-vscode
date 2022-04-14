@@ -1,0 +1,9 @@
+{
+  "color-picker": {
+		"prefix": ["forge-color-picker", "<forge-color-picker>"],
+		"body": [
+			"<forge-color-picker></forge-color-picker>"
+		],
+		"description": "Forge color-picker component"
+  }
+}

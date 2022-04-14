@@ -1,0 +1,25 @@
+{
+  "fab": {
+		"prefix": ["forge-fab", "forge-floating-action-button", "<forge-fab>"],
+		"body": [
+      "<forge-fab>",
+				"\t<button type=\"button\" aria-label=\"${2:label}\">",
+					"\t\t<forge-icon name=\"${1:label}\"></forge-icon>",
+				"\t</button>",
+			"</forge-fab>$0"
+		],
+		"description": "Forge floating-action-button component"
+	},
+  "fab:extended": {
+		"prefix": ["forge-fab:extended", "forge-floating-action-button:extended"],
+		"body": [
+      "<forge-fab extended=\"true\">",
+				"\t<button type=\"button\" aria-label=\"$2\">",
+					"\t\t<forge-icon name=\"${1:home}\"></forge-icon>",
+					"\t\t<span>${2:label}</span>",
+				"\t</button>",
+			"</forge-fab>$0"
+		],
+		"description": "Forge floating-action-button component"
+	}
+}

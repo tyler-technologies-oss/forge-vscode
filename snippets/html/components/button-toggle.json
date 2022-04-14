@@ -1,0 +1,20 @@
+{
+  "button-toggle-group": {
+		"prefix": ["forge-button-toggle-group", "<forge-button-toggle-group>"],
+		"body": [
+			"<forge-button-toggle-group>",
+        "\t<forge-button-toggle value=\"${7:value}\" aria-label=\"${4:Label}\">${1:Label}</forge-button-toggle>",
+        "\t<forge-button-toggle value=\"${8:value}\" aria-label=\"${5:Label}\">${2:Label}</forge-button-toggle>",
+        "\t<forge-button-toggle value=\"${9:value}\" aria-label=\"${6:Label}\">${3:Label}</forge-button-toggle>",
+      "</forge-button-toggle-group>$0"
+		],
+		"description": "Forge button toggle group component"
+  },
+  "button-toggle": {
+		"prefix": ["forge-button-toggle", "<forge-button-toggle>"],
+		"body": [
+			"<forge-button-toggle value=\"${3:value}\" aria-label=\"${2:Label}\">${1:Label}</forge-button-toggle>$0"
+		],
+		"description": "Forge button toggle component"
+  }
+}

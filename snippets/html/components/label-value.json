@@ -1,0 +1,12 @@
+{
+  "label-value": {
+		"prefix": ["forge-label-value", "<forge-label-value>"],
+		"body": [
+			"<forge-label-value>",
+				"\t<span slot=\"label\">${1:Label}</span>",
+				"\t<span slot=\"value\">${2:Value}</span>",
+			"</forge-label-value>$0"
+		],
+		"description": "Forge label-value component"
+  }
+}

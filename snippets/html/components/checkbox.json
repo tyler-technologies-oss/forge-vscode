@@ -1,0 +1,21 @@
+{
+  "checkbox": {
+		"prefix": ["forge-checkbox", "<forge-checkbox>"],
+		"body": [
+			"<forge-checkbox>",
+				"\t<input type=\"checkbox\" id=\"${2:id}\">",
+				"\t<label for=\"${2:id}\">${1:Label text}</label>",
+			"</forge-checkbox>"
+		],
+		"description": "Forge checkbox component with label"
+  },
+  "checkbox:no-label": {
+		"prefix": ["forge-checkbox:no-label"],
+		"body": [
+      "<forge-checkbox>",
+        "\t<input type=\"checkbox\" />",
+      "</forge-checkbox>$0"
+		],
+		"description": "Forge checkbox component"
+  }
+}

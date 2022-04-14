@@ -1,0 +1,9 @@
+{
+  "calendar": {
+		"prefix": ["forge-calendar", "<forge-calendar>"],
+		"body": [
+			"<forge-calendar></forge-calendar>"
+		],
+		"description": "Forge calendar component"
+  }
+}

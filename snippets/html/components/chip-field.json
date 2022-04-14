@@ -1,0 +1,24 @@
+{
+  "chip-field": {
+		"prefix": ["forge-chip-field", "<forge-chip-field>"],
+		"body": [
+			"<forge-chip-field>",
+        "\t<input type=\"text\" id=\"${2:id}\" />",
+        "\t<label slot=\"label\" for=\"$2\">${1:Label}</label>",
+      "</forge-chip-field>$0"
+		],
+		"description": "Forge chip field component"
+  },
+  "chip-field:autocomplete": {
+		"prefix": ["forge-chip-field:autocomplete"],
+		"body": [
+			"<forge-autocomplete multiple=\"true\">",
+        "\t<forge-chip-field>",
+          "\t\t<input type=\"text\" id=\"${2:id}\" />",
+          "\t\t<label slot=\"label\" for=\"$2\">${1:Label}</label>",
+        "\t</forge-chip-field>",
+      "</forge-autocomplete>$0"
+		],
+		"description": "Forge chip field component"
+  }
+}

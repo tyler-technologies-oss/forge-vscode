@@ -1,0 +1,18 @@
+{
+  "switch": {
+		"prefix": ["forge-switch", "<forge-switch>"],
+		"body": [
+			"<forge-switch>",
+				"\t<span>${1:Label}</span>",
+			"</forge-switch>"
+		],
+		"description": "Forge switch component"
+  },
+	"switch:no-label": {
+		"prefix": ["forge-switch:no-label"],
+		"body": [
+      "<forge-switch></forge-switch>"
+		],
+		"description": "Forge switch component without a label"
+  }
+}

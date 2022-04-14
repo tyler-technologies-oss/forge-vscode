@@ -1,0 +1,35 @@
+{
+	"menu": {
+		"prefix": ["forge-menu", "<forge-menu>"],
+		"body": [
+			"<forge-menu>",
+				"\t<forge-button type=\"${2:type}\">",
+					"\t\t<button type=\"button\">${1:Button label}</button>",
+				"\t</forge-button>",
+			"</forge-menu>$0"
+		],
+		"description": "Forge menu component with button child"
+  },
+  "menu:empty": {
+		"prefix": ["forge-menu:empty"],
+		"body": [
+			"<forge-menu>",
+				"\t$0",
+			"</forge-menu>"
+		],
+		"description": "Forge menu component without any children"
+  },
+	"menu:icon-button": {
+		"prefix": ["forge-menu:icon-button"],
+		"body": [
+			"<forge-menu>",
+				"\t<forge-icon-button>",
+					"\t\t<button type=\"button\">",
+						"\t\t\t<forge-icon name=\"${1:icon}\"></forge-icon>",
+					"\t\t</button>",
+				"\t</forge-icon-button>",
+			"</forge-menu>$0"
+		],
+		"description": "Forge menu component with icon-button child"
+  }
+}

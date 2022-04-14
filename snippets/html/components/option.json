@@ -1,0 +1,9 @@
+{
+  "option": {
+		"prefix": ["forge-option", "<forge-option>"],
+		"body": [
+      "<forge-option value=\"$2\">$1</forge-option>"
+		],
+		"description": "Forge select option component"
+  }
+}

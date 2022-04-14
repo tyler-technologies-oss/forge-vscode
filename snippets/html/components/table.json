@@ -1,0 +1,9 @@
+{
+  "table": {
+		"prefix": ["forge-table", "<forge-table>"],
+		"body": [
+      "<forge-table></forge-table>"
+		],
+		"description": "Forge table component"
+  }
+}

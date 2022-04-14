@@ -1,0 +1,25 @@
+{
+  "file-picker": {
+		"prefix": ["forge-file-picker", "<forge-file-picker>"],
+		"body": [
+      "<forge-file-picker>",
+        "\t<span slot=\"primary\">Drag files here or</span>",
+        "\t<forge-button type=\"outlined\">",
+          "\t\t<button type=\"button\">Select files</button>",
+        "\t</forge-button>",
+      "</forge-file-picker>"
+		],
+		"description": "Forge file-picker component"
+  },
+  "file-picker:compact": {
+		"prefix": ["forge-file-picker:compact"],
+		"body": [
+      "<forge-file-picker compact>",
+        "<forge-button type=\"outlined\">",
+          "<button type=\"button\">Select files</button>",
+        "</forge-button>",
+      "</forge-file-picker>"
+		],
+		"description": "Forge file-picker component compact variant"
+  }
+}

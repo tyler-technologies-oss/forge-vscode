@@ -1,0 +1,20 @@
+{
+  "scaffold": {
+		"prefix": ["forge-scaffold", "<forge-scaffold>"],
+		"body": [
+      "<forge-scaffold>",
+        "\t$0",
+      "</forge-scaffold>"
+		],
+		"description": "Forge scaffold component"
+  },
+  "scaffold:body": {
+		"prefix": ["forge-scaffold:body"],
+		"body": [
+      "<div slot=\"body\">",
+        "\t$0",
+      "</div>"
+		],
+		"description": "Forge scaffold body element"
+	}
+}

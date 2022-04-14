@@ -1,0 +1,11 @@
+{
+  "accordion": {
+		"prefix": ["forge-accordion", "<forge-accordion>"],
+		"body": [
+			"<forge-accordion>",
+				"\t$0",
+			"</forge-accordion>"
+		],
+		"description": "Forge accordion component"
+  }
+}

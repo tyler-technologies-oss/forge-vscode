@@ -1,0 +1,16 @@
+{
+    "icon": {
+        "prefix": ["forge-icon", "<forge-icon>"],
+        "body": [
+        "<forge-icon name=\"${1}\"></forge-icon>$0"
+        ],
+        "description": "Forge icon component"
+    },
+    "icon:external": {
+        "prefix": ["forge-icon:external"],
+        "body": [
+        "<forge-icon name=\"${1}\" external external-type=\"${2|standard,extended,custom|}\"></forge-icon>$0"
+        ],
+        "description": "External Forge icon component"
+    }
+}

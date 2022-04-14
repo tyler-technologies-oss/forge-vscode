@@ -1,0 +1,9 @@
+{
+  "linear-progress": {
+		"prefix": ["forge-linear-progress", "<forge-linear-progress>"],
+		"body": [
+			"<forge-linear-progress></forge-linear-progress>"
+		],
+		"description": "Forge linear-progress component"
+  }
+}

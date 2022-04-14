@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+		"prefix": ["forge-tooltip", "<forge-tooltip>"],
+		"body": [
+      "<forge-tooltip>${1:Text}</forge-tooltip>"
+		],
+		"description": "Forge tooltip component"
+  }
+}

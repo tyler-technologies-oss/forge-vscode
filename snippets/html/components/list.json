@@ -1,0 +1,38 @@
+{
+  "list": {
+		"prefix": ["forge-list", "<forge-list>"],
+		"body": [
+			"<forge-list>",
+				"\t<forge-list-item>$1</forge-list-item>$0",
+			"</forge-list>"
+		],
+		"description": "Forge list component"
+  },
+	"list-item": {
+		"prefix": ["forge-list-item", "<forge-list-item>"],
+		"body": [
+			"<forge-list-item>$0</forge-list-item>"
+		],
+		"description": "Forge list-item component"
+  },
+	"list-item:leading-icon": {
+		"prefix": ["forge-list-item:leading-icon"],
+		"body": [
+			"<forge-list-item>",
+				"\t<forge-icon slot=\"leading\" name=\"${2:icon}\"></forge-icon>",
+				"\t<span class=\"forge-list-item__text\">${1:Label}</span>",
+			"</forge-list-item>$0"
+		],
+		"description": "Forge list-item with leading icon"
+  },
+	"list-item:trailing-icon": {
+		"prefix": ["forge-list-item:trailing-icon"],
+		"body": [
+			"<forge-list-item>",
+				"\t<span class=\"forge-list-item__text\">${1:Label}</span>",
+				"\t<forge-icon slot=\"trailing\" name=\"${2:icon}\"></forge-icon>",
+			"</forge-list-item>"
+		],
+		"description": "Forge list-item with trailing icon"
+  }
+}

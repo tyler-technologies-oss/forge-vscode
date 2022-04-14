@@ -1,0 +1,18 @@
+{
+  "stepper": {
+		"prefix": ["forge-stepper", "<forge-stepper>"],
+		"body": [
+			"<forge-stepper>",
+				"\t<forge-step>${1:Label}</forge-step>$0",
+			"</forge-stepper>"
+		],
+		"description": "Forge stepper component"
+  },
+  "step": {
+		"prefix": ["forge-step", "<forge-step>"],
+		"body": [
+      "<forge-step>${1:Label}</forge-step>"
+		],
+		"description": "Forge step component"
+  }
+}

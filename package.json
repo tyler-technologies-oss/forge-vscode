@@ -1,0 +1,245 @@
+{
+  "name": "forge-vscode",
+  "displayName": "Forge Components Snippets",
+  "description": "An extension to aid in development when using Forge Web Components.",
+  "version": "1.0.0",
+  "author": "Tyler Technologies, Inc.",
+  "publisher": "TylerTechnologies",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyler-technologies/forge-vscode.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html/components/accordion.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/app-bar.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/autocomplete.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/avatar.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/badge.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/banner.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/button.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/button-toggle.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/calendar.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/card.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/checkbox.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/chip-field.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/chip.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/circular-progress.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/color-picker.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/date-range-picker.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/date-picker.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/divider.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/drawer.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/expansion-panel.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/fab.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/file-picker.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/icon.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/icon-button.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/inline-message.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/label-value.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/linear-progress.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/list.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/menu.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/open-icon.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/option.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/page-state.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/paginator.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/product-icon.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/quantity-field.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/radio.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/ripple.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/scaffold.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/select.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/skeleton.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/slider.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/stepper.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/switch.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/tab-bar.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/text-field.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/table.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/toolbar.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/tooltip.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/view-switcher.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/recipes/page-layout/page-layout.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/utilities/typography.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss/import.json"
+      }
+    ]
+  },
+  "keywords": [
+    "Forge",
+    "HTML",
+    "Tyler",
+    "Components",
+    "Web"
+  ],
+  "devDependencies": {
+    "vsce": "^1.69.0"
+  }
+}

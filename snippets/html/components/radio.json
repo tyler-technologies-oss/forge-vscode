@@ -1,0 +1,33 @@
+{
+  "radio": {
+		"prefix": ["forge-radio", "<forge-radio>"],
+		"body": [
+			"<forge-radio>",
+				"\t<input type=\"radio\" id=\"${3:id}\" name=\"${2:name}\">",
+				"\t<label for=\"$3\">${1:Label}</label>",
+			"</forge-radio>"
+		],
+		"description": "Forge radio component"
+  },
+  "radio-group": {
+		"prefix": ["forge-radio-group"],
+		"body": [
+			"<div role=\"radiogroup\" aria-label=\"$1\">",
+				"\t<forge-radio>",
+					"\t\t<input type=\"radio\" id=\"${3:id}\" name=\"${2:name}\">",
+					"\t\t<label for=\"$3\">${1:Label}</label>",
+				"\t</forge-radio>",
+			"</div>"
+		],
+		"description": "Forge radio component inside of a radio group"
+  },
+  "radio:no-label": {
+		"prefix": ["forge-radio:no-label"],
+		"body": [
+			"<forge-radio>",
+				"\t<input type=\"radio\" id=\"${1:id}\" name=\"${2:name}\">",
+			"</forge-radio>$0"
+		],
+		"description": "Forge radio component without a label"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tab-bar": {
+		"prefix": ["forge-tab-bar", "<forge-tab-bar>"],
+		"body": [
+      "<forge-tab-bar>",
+				"\t<forge-tab>${1:Label}</forge-tab>",
+				"\t<forge-tab>${2:Label}</forge-tab>",
+				"\t<forge-tab>${3:Label}</forge-tab>",
+			"</forge-tab-bar>$0"
+		],
+		"description": "Forge tab-bar component"
+  },
+  "tab": {
+		"prefix": ["forge-tab", "<forge-tab>"],
+		"body": [
+      "<forge-tab>${1:Label}</forge-tab>"
+		],
+		"description": "Forge tab component"
+  }
+}

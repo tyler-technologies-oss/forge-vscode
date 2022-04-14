@@ -1,0 +1,15 @@
+{
+  "date-range-picker": {
+		"prefix": ["forge-date-range-picker", "<forge-date-range-picker>"],
+		"body": [
+      "<forge-date-range-picker>",
+        "\t<forge-text-field>",
+          "\t\t<label for=\"$2\">${1:label}</label>",
+          "\t\t<input type=\"text\" id=\"${2:id}\" />",
+          "\t\t<input type=\"text\" id=\"${3:id}\" />",
+        "\t</forge-text-field>",
+      "</forge-date-range-picker>$0"
+		],
+		"description": "Forge date range picker component"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "chip": {
+		"prefix": ["forge-chip", "<forge-chip>"],
+		"body": [
+      "<forge-chip>${1:Label}</forge-chip>$0"
+		],
+		"description": "Forge chip component"
+  },
+  "chip:with-icon": {
+		"prefix": ["forge-chip:with-icon"],
+		"body": [
+			"<forge-chip>",
+				"\t<forge-icon name=\"${1:icon}\"></forge-icon>",
+				"\t${2:Label}",
+			"</forge-chip>$0"
+		],
+		"description": "Forge chip with icon"
+  },
+  "chip-set": {
+		"prefix": ["forge-chip-set", "<forge-chip-set>"],
+		"body": [
+			"<forge-chip-set type=\"${1|choice,filter,action,input|}\">",
+				"\t<forge-chip>${2:Label}</forge-chip>$0",
+			"</forge-chip-set>"
+		],
+		"description": "Forge chip-set component"
+  }
+}

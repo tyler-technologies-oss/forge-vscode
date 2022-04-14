@@ -1,0 +1,9 @@
+{
+  "slider": {
+		"prefix": ["forge-slider", "<forge-slider>"],
+		"body": [
+      "<forge-slider></forge-slider>"
+		],
+		"description": "Forge slider component"
+  }
+}

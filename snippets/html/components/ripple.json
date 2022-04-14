@@ -1,0 +1,9 @@
+{
+  "ripple": {
+		"prefix": ["forge-ripple", "<forge-ripple>"],
+		"body": [
+      "<forge-ripple></forge-ripple>"
+		],
+		"description": "Forge ripple component"
+  }
+}

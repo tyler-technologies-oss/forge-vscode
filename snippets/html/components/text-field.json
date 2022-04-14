@@ -1,0 +1,12 @@
+{
+  "text-field": {
+		"prefix": ["forge-text-field", "<forge-text-field>"],
+		"body": [
+      "<forge-text-field>",
+        "\t<label for=\"$2\">${1:Label text}</label>",
+        "\t<input type=\"text\" id=\"${2:input-id}\" />",
+      "</forge-text-field>$0"
+		],
+		"description": "Forge text-field component"
+  }
+}

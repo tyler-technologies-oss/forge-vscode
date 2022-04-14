@@ -1,0 +1,9 @@
+{
+  "avatar": {
+		"prefix": ["forge-avatar", "<forge-avatar>"],
+		"body": [
+      "<forge-avatar text=\"$1\"></forge-avatar>"
+		],
+		"description": "Forge avatar component"
+  }
+}

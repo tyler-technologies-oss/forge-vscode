@@ -1,0 +1,56 @@
+{
+  "skeleton": {
+		"prefix": ["forge-skeleton", "<forge-skeleton>"],
+		"body": [
+      "<forge-skeleton></forge-skeleton>"
+		],
+		"description": "Forge skeleton component"
+  },
+	"skeleton:avatar": {
+		"prefix": ["forge-skeleton:avatar"],
+		"body": [
+      "<forge-skeleton avatar></forge-skeleton>"
+		],
+		"description": "Forge skeleton component avatar variant"
+  },
+	"skeleton:list": {
+		"prefix": ["forge-skeleton:list"],
+		"body": [
+      "<forge-skeleton list-item></forge-skeleton>",
+      "<forge-skeleton list-item></forge-skeleton>",
+      "<forge-skeleton list-item></forge-skeleton>"
+		],
+		"description": "Forge skeleton component list layout"
+  },
+	"skeleton:list-item": {
+		"prefix": ["forge-skeleton:list-item"],
+		"body": [
+      "<forge-skeleton list-item></forge-skeleton>"
+		],
+		"description": "Forge skeleton component list-item variant"
+  },
+	"skeleton:chip": {
+		"prefix": ["forge-skeleton:chip"],
+		"body": [
+      "<forge-skeleton chip></forge-skeleton>"
+		],
+		"description": "Forge skeleton component chip variant"
+  },
+	"skeleton:text": {
+		"prefix": ["forge-skeleton:text"],
+		"body": [
+      "<forge-skeleton text></forge-skeleton>"
+		],
+		"description": "Forge skeleton component text variant"
+  },
+	"skeleton:profile": {
+		"prefix": ["forge-skeleton:profile"],
+		"body": [
+      "<forge-skeleton avatar></forge-skeleton>",
+			"<forge-skeleton text></forge-skeleton>",
+			"<forge-skeleton text></forge-skeleton>",
+			"<forge-skeleton text style=\"width: 75%;\"></forge-skeleton>"
+		],
+		"description": "Forge skeleton component profile layout"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "product-icon": {
+		"prefix": ["forge-product-icon", "<forge-product-icon>"],
+		"body": [
+      "<forge-product-icon>${1:home}</forge-product-icon>$0"
+		],
+		"description": "Forge product icon component"
+  }
+}

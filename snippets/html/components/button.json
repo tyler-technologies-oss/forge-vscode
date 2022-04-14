@@ -1,0 +1,11 @@
+{
+  "button": {
+    "prefix": ["forge-button", "<forge-button>"],
+    "body": [
+      "<forge-button type=\"${1|raised,outlined,unelevated,raised-dense,outlined-dense,unelevated-dense|}\">",
+        "\t<button type=\"button\">$2</button>",
+      "</forge-button>$0"
+    ],
+    "description": "Forge button component."
+  }
+}

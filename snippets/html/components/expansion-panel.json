@@ -1,0 +1,29 @@
+{
+  "expansion-panel": {
+		"prefix": ["forge-expansion-panel", "<forge-expansion-panel>"],
+		"body": [
+      "<forge-expansion-panel>",
+				"\t<div slot=\"header\">${1:Header content}</div>",
+				"\t<div>${2:Expandable content}</div>",
+			"</forge-expansion-panel>$0"
+		],
+		"description": "Forge expansion-panel component"
+	},
+  "expansion-panel:card": {
+		"prefix": ["forge-expansion-panel:card"],
+		"body": [
+      "<forge-card has-padding=\"false\">",
+				"\t<forge-expansion-panel>",
+					"\t\t<button slot=\"header\" class=\"forge-flex-container--row forge-expansion-panel__button\">",
+						"\t\t\t<div>Click me</div>",
+						"\t\t\t<forge-open-icon class=\"forge-flex-item--right\"></forge-open-icon>",
+					"\t\t</button>",
+					"\t\t<div class=\"forge-expansion-panel__content\">",
+						"\t\t\tExpandable card content",
+					"\t\t</div>",
+				"\t</forge-expansion-panel>",
+			"</forge-card>"
+		],
+		"description": "Forge expansion-panel component"
+	}
+}

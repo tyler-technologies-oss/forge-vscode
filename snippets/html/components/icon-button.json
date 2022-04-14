@@ -1,0 +1,25 @@
+{
+  "icon-button": {
+		"prefix": ["forge-icon-button", "<forge-icon-button>"],
+		"body": [
+      "<forge-icon-button>",
+        "\t<button type=\"button\">",
+					"\t\t<forge-icon name=\"${1:icon name}\"></forge-icon>",
+				"\t</button>",
+      "</forge-icon-button>$0"
+		],
+		"description": "Forge icon-button component"
+  },
+	"icon-button:toggle": {
+		"prefix": ["forge-icon-button:toggle"],
+		"body": [
+      "<forge-icon-button toggle=\"true\" is-on=\"true\">",
+				"\t<button type=\"button\">",
+					"\t\t<forge-icon name=\"${1:icon name}\"></forge-icon>",
+					"\t\t<forge-icon forge-icon-button-on name=\"${2:icon name}\"></forge-icon>",
+				"\t</button>",
+			"</forge-icon-button>$0"
+		],
+		"description": "Forge icon-button toggle component"
+  }
+}

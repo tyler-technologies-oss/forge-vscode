@@ -1,0 +1,9 @@
+{
+  "badge": {
+		"prefix": ["forge-badge", "<forge-badge>"],
+		"body": [
+      "<forge-badge theme=\"${1|danger,warning,success,info-primary,info-secondary|}\">${2:Label}</forge-badge>"
+		],
+		"description": "Forge badge component"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "page-state": {
+		"prefix": ["forge-page-state", "<forge-page-state>"],
+		"body": [
+      "<forge-page-state>",
+				"\t<img src=\"${1:https://cdn.forge.tylertech.com/v1/images/spot-hero/404-error-spot-hero-desktop.svg}\" slot=\"graphic\" alt=\"${2:Alt text}\" />",
+				"\t<div slot=\"title\">${3:Title text}</div>",
+				"\t<div slot=\"message\">${4:Message text}</div>",
+				"\t<forge-button type=\"raised\" slot=\"action\">",
+					"\t\t<button>${5:Negative button text}</button>",
+				"\t</forge-button>",
+				"\t<forge-button type=\"outlined\" slot=\"action\">",
+					"\t\t<button>${6:Positive button text}</button>",
+				"\t</forge-button>",
+			"</forge-page-state>$0"
+		],
+		"description": "Forge page-state component"
+  }
+}

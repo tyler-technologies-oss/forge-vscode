@@ -1,0 +1,12 @@
+{
+  "inline-message": {
+		"prefix": ["forge-inline-message", "<forge-inline-message>"],
+		"body": [
+      "<forge-inline-message theme=\"${1|danger,warning,success,info-primary,info-secondary|}\">",
+        "\t<forge-icon slot=\"icon\" name=\"${2:cake}\"></forge-icon>",
+				"\t<div>${1:Message text}</div>",
+			"</forge-inline-message>"
+		],
+		"description": "Forge inline-message component"
+  }
+}

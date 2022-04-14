@@ -1,0 +1,72 @@
+{
+  "typography:title": {
+		"prefix": ["forge-typography--title"],
+		"body": ["forge-typography--title"],
+		"description": "Forge title typography"
+  },
+  "typography:headline1": {
+		"prefix": ["forge-typography--headline1"],
+		"body": ["forge-typography--headline1"],
+		"description": "Forge headline1 typography"
+  },
+  "typography:headline2": {
+		"prefix": ["forge-typography--headline2"],
+		"body": ["forge-typography--headline2"],
+		"description": "Forge headline2 typography"
+  },
+  "typography:headline3": {
+		"prefix": ["forge-typography--headline3"],
+		"body": ["forge-typography--headline3"],
+		"description": "Forge headline3 typography"
+  },
+  "typography:headline4": {
+		"prefix": ["forge-typography--headline4"],
+		"body": ["forge-typography--headline4"],
+		"description": "Forge headline4 typography"
+  },
+  "typography:headline5": {
+		"prefix": ["forge-typography--headline5"],
+		"body": ["forge-typography--headline5"],
+		"description": "Forge headline5 typography"
+  },
+  "typography:subtitle1": {
+		"prefix": ["forge-typography--subtitle1"],
+		"body": ["forge-typography--subtitle1"],
+		"description": "Forge subtitle1 typography"
+  },
+  "typography:subtitle1-secondary": {
+		"prefix": ["forge-typography--subtitle1-secondary"],
+		"body": ["forge-typography--subtitle1-secondary"],
+		"description": "Forge subtitle1-secondary typography"
+  },
+  "typography:subtitle2": {
+		"prefix": ["forge-typography--subtitle2"],
+		"body": ["forge-typography--subtitle2"],
+		"description": "Forge subtitle2 typography"
+  },
+  "typography:subtitle2-secondary": {
+		"prefix": ["forge-typography--subtitle2-secondary"],
+		"body": ["forge-typography--subtitle2-secondary"],
+		"description": "Forge subtitle2-secondary typography"
+  },
+  "typography:overline": {
+		"prefix": ["forge-typography--overline"],
+		"body": ["forge-typography--overline"],
+		"description": "Forge overline typography"
+  },
+  "typography:body1": {
+		"prefix": ["forge-typography--body1"],
+		"body": ["forge-typography--body1"],
+		"description": "Forge body1 typography"
+  },
+  "typography:body2": {
+		"prefix": ["forge-typography--body2"],
+		"body": ["forge-typography--body2"],
+		"description": "Forge body2 typography"
+  },
+  "typography:caption": {
+		"prefix": ["forge-typography--caption"],
+		"body": ["forge-typography--caption"],
+		"description": "Forge caption typography"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "card": {
+		"prefix": ["forge-card", "<forge-card>"],
+		"body": [
+      "<forge-card>",
+        "\t$0",
+      "</forge-card>"
+		],
+		"description": "Forge card component"
+  }
+}

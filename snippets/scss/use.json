@@ -1,0 +1,34 @@
+{
+  "use:forge": {
+		"prefix": [
+			"forge.css",
+			"@use:forge"
+		],
+		"body": ["@use '@tylertech/forge/dist/forge.css';"],
+		"description": "Import for the Forge stylesheet"
+  },
+  "use:forge-core": {
+		"prefix": [
+			"forge-core.css",
+			"@use:forge-core"
+		],
+		"body": ["@use '@tylertech/forge/dist/forge-core.css';"],
+		"description": "Import for the Forge core stylesheet"
+  },
+  "use:forge-theme-values": {
+		"prefix": [
+			"forge-theme-values",
+			"@use:forge-theme-values"
+		],
+		"body": ["@use '@tylertech/forge/styles/theme/theme-values' as forge-theme-values;"],
+		"description": "Import for the Forge theme variables partial"
+  },
+  "use:forge-theme": {
+		"prefix": [
+			"forge-theme",
+			"@use:theme-mixins"
+		],
+		"body": ["@use '@tylertech/forge/styles/theme/theme' as forge-theme;"],
+		"description": "Import for the Forge theme mixins partial"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "quantity-field": {
+		"prefix": ["forge-quantity-field", "<forge-quantity-field>"],
+		"body": [
+			"<forge-quantity-field>",
+        "\t<label slot=\"label\">${1:Label}</label>",
+        "\t<forge-icon-button slot=\"decrement-button\">",
+          "\t\t<button type=\"button\">",
+            "\t\t\t<forge-icon name=\"remove_circle_outline\"></forge-icon>",
+          "\t\t</button>",
+        "\t</forge-icon-button>",
+        "\t<forge-text-field>",
+          "\t\t<input type=\"number\" style=\"text-align: center; width: 64px;\" />",
+        "\t</forge-text-field>",
+        "\t<forge-icon-button slot=\"increment-button\">",
+          "\t\t<button type=\"button\">",
+            "\t\t\t<forge-icon name=\"control_point\"></forge-icon>",
+          "\t\t</button>",
+        "\t</forge-icon-button>",
+        "\t<div slot=\"helper-text\">Description of this field</div>",
+      "</forge-quantity-field>$0"
+		],
+		"description": "Forge quantity field component"
+  }
+}

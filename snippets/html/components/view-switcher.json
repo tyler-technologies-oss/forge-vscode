@@ -1,0 +1,19 @@
+{
+  "view-switcher": {
+		"prefix": ["forge-view-switcher", "<forge-view-switcher>"],
+		"body": [
+      "<forge-view-switcher>",
+				"\t<forge-view>",
+					"\t\t<div>View one</div>",
+				"\t</forge-view>",
+				"\t<forge-view>",
+					"\t\t<div>View two</div>",
+				"\t</forge-view>",
+				"\t<forge-view>",
+					"\t\t<div>View three</div>",
+				"\t</forge-view>",
+			"</forge-view-switcher>"
+		],
+		"description": "Forge view-switcher component"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "divider": {
+		"prefix": ["forge-divider", "<forge-divider>"],
+		"body": [
+      "<forge-divider></forge-divider>"
+		],
+		"description": "Forge divider component"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "banner": {
+		"prefix": ["forge-banner", "<forge-banner>"],
+		"body": [
+      "<forge-banner theme=\"${1|danger,warning,success,info-primary,info-secondary|}\">",
+        "\t<forge-icon slot=\"icon\" name=\"${3:add_alert}\"></forge-icon>",
+        "\t<div>${2:Minim sunt eu laborum labore minim}.</div>",
+        "\t<forge-button type=\"outlined\" slot=\"button\">",
+          "\t\t<button type=\"button\" style=\"background-color: #ffffff\">${4:Learn more...}</button>",
+        "\t</forge-button>",
+      "</forge-banner>"
+		],
+		"description": "Forge banner component"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "page-layout-basic": {
+		"prefix": ["forge-recipe:page-layout-basic"],
+		"body": [
+      "<forge-scaffold>",
+        "\t<forge-app-bar title-text=\"Application Title\" slot=\"header\"></forge-app-bar>",
+        "\t<forge-toolbar slot=\"body-header\">",
+          "\t\t<h2 slot=\"start\" class=\"forge-typography--title\">Page title</h2>",
+        "\t</forge-toolbar>",
+        "\t<div slot=\"body-left\">",
+          "\t\t<forge-drawer>",
+            "\t\t\t<forge-list>",
+              "\t\t\t\t<forge-list-item>",
+                "\t\t\t\t\t<forge-icon slot=\"leading\" name=\"add\"></forge-icon>",
+                "\t\t\t\t\tCreate",
+              "\t\t\t\t</forge-list-item>",
+              "\t\t\t\t<forge-list-item>",
+                "\t\t\t\t\t<forge-icon slot=\"leading\" name=\"search\"></forge-icon>",
+                "\t\t\t\t\tSearch",
+              "\t\t\t\t</forge-list-item>",
+              "\t\t\t\t<forge-list-item>",
+                "\t\t\t\t\t<forge-icon slot=\"leading\" name=\"settings\"></forge-icon>",
+                "\t\t\t\t\tSettings",
+              "\t\t\t\t</forge-list-item>",
+            "\t\t\t</forge-list>",
+          "\t\t</forge-drawer>",
+        "\t</div>",
+        "\t<main slot=\"body\">",
+          "\t\t<p class=\"forge-typography--body1\">Content area</p>",
+        "\t</main>",
+      "</forge-scaffold>"
+		],
+		"description": "A common/basic page layout using Forge components."
+  }
+}

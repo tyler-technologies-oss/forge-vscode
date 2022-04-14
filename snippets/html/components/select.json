@@ -1,0 +1,21 @@
+{
+  "select": {
+		"prefix": ["forge-select", "<forge-select>"],
+		"body": [
+      "<forge-select label=\"${1:Label text}\"></forge-select>$0"
+		],
+		"description": "Forge select component"
+  },
+  "select:options": {
+		"prefix": ["forge-select:options"],
+		"body": [
+      "<forge-select value=\"fruit\" label=\"${1:Food group}\">",
+				"\t<forge-option value=\"\"></forge-option>",
+				"\t<forge-option value=\"grains\">Bread, Cereal, Rice, and Pasta</forge-option>",
+				"\t<forge-option value=\"vegetables\">Vegetables</forge-option>",
+				"\t<forge-option value=\"fruit\">Fruit</forge-option>",
+			"</forge-select>$0"
+		],
+		"description": "Forge select component with options"
+  }
+}

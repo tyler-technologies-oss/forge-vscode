@@ -1,0 +1,9 @@
+{
+  "paginator": {
+		"prefix": ["forge-paginator", "<forge-paginator>"],
+		"body": [
+      "<forge-paginator total=\"100\"></forge-paginator>"
+		],
+		"description": "Forge paginator component"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "toolbar": {
+		"prefix": ["forge-toolbar", "<forge-toolbar>"],
+		"body": [
+      "<forge-toolbar>",
+				"\t$0",
+			"</forge-toolbar>"
+		],
+		"description": "Forge toolbar component"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "circular-progress": {
+		"prefix": ["forge-circular-progress", "<forge-circular-progress>"],
+		"body": [
+      "<forge-circular-progress></forge-circular-progress>"
+		],
+		"description": "Forge circular-progress component"
+  }
+}

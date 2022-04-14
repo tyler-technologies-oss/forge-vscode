@@ -1,0 +1,9 @@
+{
+  "open-icon": {
+		"prefix": ["forge-open-icon", "<forge-open-icon>"],
+		"body": [
+      "<forge-open-icon></forge-open-icon>"
+		],
+		"description": "Forge open-icon component"
+  }
+}

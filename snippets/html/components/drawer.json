@@ -1,0 +1,40 @@
+{
+  "drawer": {
+		"prefix": ["forge-drawer", "<forge-drawer>"],
+		"body": [
+			"<forge-drawer>",
+				"\t$0",
+			"</forge-drawer>"
+		],
+		"description": "Forge permanent/dismissible drawer component"
+	},
+  "modal:drawer": {
+		"prefix": ["forge-modal-drawer", "<forge-modal-drawer>"],
+		"body": [
+			"<forge-modal-drawer>",
+				"\t$0",
+			"</forge-modal-drawer>"
+		],
+		"description": "Forge modal drawer component"
+	},
+  "mini:drawer": {
+		"prefix": ["forge-mini-drawer", "<forge-mini-drawer>"],
+		"body": [
+			"<forge-mini-drawer>",
+				"\t$0",
+			"</forge-mini-drawer>"
+		],
+		"description": "Forge mini drawer component"
+	},
+  "drawer:list": {
+		"prefix": ["forge-drawer:list"],
+		"body": [
+			"<forge-drawer>",
+				"\t<forge-list>",
+					"\t\t<forge-list-item>$1</forge-list-item>",
+				"\t</forge-list>",
+			"</forge-drawer>"
+		],
+		"description": "Forge drawer component with list"
+	}
+}
