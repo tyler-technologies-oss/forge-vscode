@@ -1,0 +1,76 @@
+{
+  "split-view": {
+    "prefix": ["forge-split-view", "<forge-split-view>"],
+    "body": [
+      "<forge-split-view>",
+        "\t<forge-split-view-panel>$0</forge-split-view-panel>",
+        "\t<forge-split-view-panel>$1</forge-split-view-panel>",
+      "</forge-split-view>"
+    ],
+    "description": "Forge split view component"
+  },
+  "split-view:vertical": {
+    "prefix": ["forge-split-view:vertical"],
+    "body": [
+      "<forge-split-view orientation=\"vertical\">",
+        "\t<forge-split-view-panel>$0</forge-split-view-panel>",
+        "\t<forge-split-view-panel>$1</forge-split-view-panel>",
+      "</forge-split-view>"
+    ],
+    "description": "Forge split view arranged vertically"
+  },
+  "split-view:split": {
+    "prefix": ["forge-split-view:split"],
+    "body": [
+      "<forge-split-view>",
+        "\t<forge-split-view-panel resizable=\"end\">$0</forge-split-view-panel>",
+        "\t<forge-split-view-panel>$1</forge-split-view-panel>",
+        "\t<forge-split-view-panel resizable=\"start\">$2</forge-split-view-panel>",
+      "</forge-split-view>"
+    ],
+    "description": "Forge split view with resizable panels at the start and end"
+  },
+  "split-view:stacked-leading": {
+    "prefix": ["forge-split-view:stacked-leading"],
+    "body": [
+      "<forge-split-view>",
+        "\t<forge-split-view-panel>$0</forge-split-view-panel>",
+        "\t<forge-split-view-panel>$1</forge-split-view-panel>",
+        "\t<forge-split-view-panel>$2</forge-split-view-panel>",
+      "</forge-split-view>"
+    ],
+    "description": "Forge split view with resizable panels at the leading end"
+  },
+  "split-view:stacked-trailing": {
+    "prefix": ["forge-split-view:stacked-trailing"],
+    "body": [
+      "<forge-split-view>",
+        "\t<forge-split-view-panel>$0</forge-split-view-panel>",
+        "\t<forge-split-view-panel resizable=\"start\">$1</forge-split-view-panel>",
+        "\t<forge-split-view-panel resizable=\"start\">$2</forge-split-view-panel>",
+      "</forge-split-view>"
+    ],
+    "description": "Forge split view with resizable panels at the trailing end"
+  },
+  "split-view-panel": {
+    "prefix": ["forge-split-view-panel", "<forge-split-view-panel>"],
+    "body": [
+      "<forge-split-view-panel>$0</forge-split-view-panel>"
+    ],
+    "description": "Forge split view panel component"
+  },
+  "split-view-panel:end": {
+    "prefix": ["forge-split-view-panel:end"],
+    "body": [
+      "<forge-split-view-panel resizable=\"end\">$0</forge-split-view-panel>"
+    ],
+    "description": "Forge split view panel that resizes from the end"
+  },
+  "split-view-panel:start": {
+    "prefix": ["forge-split-view-panel:start"],
+    "body": [
+      "<forge-split-view-panel resizable=\"start\">$0</forge-split-view-panel>"
+    ],
+    "description": "Forge split view panel that resizes from the start"
+  }
+}

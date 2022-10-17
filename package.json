@@ -188,6 +188,10 @@
       },
       {
         "language": "html",
+        "path": "./snippets/html/components/split-view.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/html/components/stepper.json"
       },
       {
