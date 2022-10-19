@@ -1,6 +1,6 @@
 {
   "time-picker": {
-    "prefix": ["time-picker", "<forge-timer-picker>"],
+    "prefix": ["forge-time-picker", "<forge-time-picker>"],
     "body": [
       "<forge-time-picker>",
         "\t<forge-text-field>",
