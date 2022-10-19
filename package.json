@@ -40,6 +40,10 @@
       },
       {
         "language": "html",
+        "path": "./snippets/html/components/backdrop.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/html/components/badge.json"
       },
       {
@@ -124,6 +128,10 @@
       },
       {
         "language": "html",
+        "path": "./snippets/html/components/keyboard-shortcut.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/html/components/label-value.json"
       },
       {
@@ -205,6 +213,10 @@
       {
         "language": "html",
         "path": "./snippets/html/components/table.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html/components/time-picker.json"
       },
       {
         "language": "html",
