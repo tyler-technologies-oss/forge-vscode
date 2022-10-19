@@ -1,0 +1,14 @@
+{
+  "time-picker": {
+    "prefix": ["forge-time-picker", "<forge-time-picker>"],
+    "body": [
+      "<forge-time-picker>",
+        "\t<forge-text-field>",
+          "\t\t<label slot=\"label\" for=\"$2\">${1:Label}</label>",
+          "\t\t<input type=\"text\" id=\"${2:id}\" placeholder=\"hh:mm AM\" />",
+        "\t</forge-text-field>",
+      "</forge-time-picker>$0"
+    ],
+    "description": "Forge time-picker component"
+  }
+}

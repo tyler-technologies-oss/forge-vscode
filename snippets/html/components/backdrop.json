@@ -1,0 +1,9 @@
+{
+  "backdrop": {
+    "prefix": ["forge-backdrop", "<forge-backdrop>"],
+    "body": [
+      "<forge-backdrop></forge-backdrop>"
+    ],
+    "description": "Forge backdrop component"
+  }
+}

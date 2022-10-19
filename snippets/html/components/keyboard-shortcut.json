@@ -1,0 +1,16 @@
+{
+  "keyboard-shortcut": {
+    "prefix": ["forge-keyboard-shortcut", "<forge-keyboard-shortcut>"],
+    "body": [
+      "<forge-keyboard-shortcut key=\"${0}\"></forge-keyboard-shortcut>"
+    ],
+    "description": "Forge keyboard shortcut component"
+  },
+  "keyboard-shortcut:global": {
+    "prefix": ["forge-keyboard-shortcut:global"],
+    "body": [
+      "<forge-keyboard-shortcut key=\"${0}\" global></forge-keyboard-shortcut>"
+    ],
+    "description": "Forge keyboard shortcut component attached to document"
+  }
+}
